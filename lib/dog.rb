@@ -9,6 +9,12 @@ class Dog
       @@all.each do |each_dog|
         puts @name 
     end 
+    def self.clear_all 
+      
+    
+    end 
+    
+  
 end 
 
 
