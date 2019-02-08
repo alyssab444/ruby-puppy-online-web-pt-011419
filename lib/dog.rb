@@ -5,7 +5,6 @@ class Dog
     def initialize(name)
       @name = name 
      @@all<< self 
-     @@clear_all 
     end  
     def self.all 
       @@all.each do |each_dog|
