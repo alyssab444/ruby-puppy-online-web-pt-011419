@@ -8,8 +8,7 @@ def self.all
   @@all.each do |each_dog|
   end 
 end 
-end 
-end 
+
 
 
 
