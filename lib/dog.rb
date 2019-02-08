@@ -1,13 +1,14 @@
 class Dog 
-@@all= []
-
-def initialize 
-  @@all<< self 
-end  
-def self.all 
-  @@all.each do |each_dog|
-    puts 
-  end 
+  @@all= []
+  attr_accessor :name 
+    def initialize(name)
+      @name = name 
+     @@all<< self 
+    end  
+    def self.all 
+      @@all.each do |each_dog|
+        puts 
+    end 
 end 
 
 
